@@ -1,0 +1,343 @@
+/*** home page ***/
+
+.container {
+    text-align: center;
+}
+
+.bannerImage {
+    position: relative;
+}
+
+.homePageContainer {
+  
+    .homeGreeting {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        font-family: $bodyFont;
+        font-size: 1.1em;
+        text-transform: uppercase;
+        text-align: center;
+        @media screen and (max-width: 754px){
+            width: 100%;
+        }
+    }
+}
+
+
+
+.bannerImage h2 {
+    background-color: $main;
+    background-image: url(../img/grain.png);
+    font-family: $specialHeader;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    padding-left: 76px;
+     -webkit-box-shadow:inset 0px 0px 0px 10px #f00;
+    -moz-box-shadow:inset 0px 0px 0px 10px #f00;
+    box-shadow:inset 0px 0px 0px 10px #f00;
+}
+
+img.homeBanner.wendi {
+  border: 10px solid #00FFFF;
+}
+img.homeBanner.jeff {
+  border: 10px solid #A10EEC;
+}
+img.homeBanner.troy {
+  border: 10px solid #FFF001;
+}
+img.homeBanner.goldbergs {
+  border: 10px solid #99FC20;
+}
+
+
+
+/****** home page *******/
+
+.fycBlurb {
+    padding: 0 1em;
+}
+
+.bio-page{
+    .textwidget {
+        width: 50%;
+        margin: 2em auto;
+        font-size: 2em;
+        color: $main;
+        font-weight: bold;
+        @media screen and (max-width: 754px){
+            width: 100%;
+        }
+    }
+} 
+
+
+.showIntro.twelve.columns.blue {
+    background-color: aqua;
+    padding: 2em 0;
+    margin-bottom: 3em;
+     -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+
+  .fycImg, .fycBlurb {
+    transform: skew(0deg, 2deg); /* INVERSE SKEW */
+    margin-top: 1.5em;
+  }
+
+
+}
+
+.wendiIntro.twelve.columns.pink {
+
+background-color: deeppink;
+    padding: 2em 0;
+    margin: 3em 0;
+     -webkit-transform: skewY(-4deg);
+  -moz-transform: skewY(-4deg);
+  -ms-transform: skewY(-4deg);
+  -o-transform: skewY(-4deg);
+  transform: skewY(-4deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+
+   .fycImg, .fycBlurb {
+    transform: skew(0deg, 4deg); /* INVERSE SKEW */
+    margin-top: 1.5em;
+  }
+    
+}
+
+.jeffIntro.twelve.columns.green {
+    
+    background-color: greenyellow;
+    padding: 2em 0;
+    margin: 3em 0;
+     -webkit-transform: skewY(4deg);
+  -moz-transform: skewY(4deg);
+  -ms-transform: skewY(4deg);
+  -o-transform: skewY(4deg);
+  transform: skewY(4deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+
+   .fycImg, .fycBlurb {
+    transform: skew(0deg, -4deg); /* INVERSE SKEW */
+    margin-top: 1.5em;
+  }
+} 
+
+.troyIntro.twelve.columns.orange {
+    background-color: darkorange;
+    padding: 2em 0;
+    margin: 3em 0;
+     -webkit-transform: skewY(4deg);
+  -moz-transform: skewY(4deg);
+  -ms-transform: skewY(4deg);
+  -o-transform: skewY(4deg);
+  transform: skewY(4deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+
+   .fycImg, .fycBlurb {
+    transform: skew(0deg, -4deg); /* INVERSE SKEW */
+    margin-top: 1.5em;
+  }
+}
+
+.hashtag {
+    font-family: $hashtag;
+    p {
+        font-size: 2em;
+        letter-spacing: 0.5em;
+       
+    }
+
+
+}
+
+
+
+.whoAreWe.twelve.columns.purple {
+background-image: url("../img/wildBG.jpg");
+margin-bottom: 3em;
+padding: 2em 0;
+ a{
+    color: black;
+    text-decoration: underline black;
+   
+  }
+
+  
+}
+
+ .about {
+    background: #fff;
+    margin: 0 11em;
+    padding: 2em;
+    p{
+      a {
+      color:#FF1493 !important;
+      &:hover {
+        color: blue !important;
+      }
+      }
+    }
+     a {
+      color:#FF1493 !important;
+      &:hover {
+        color: blue !important;
+      }
+    }
+    
+}
+
+@media screen and (max-width: 750px){
+  .about{
+    margin: 0 5em;
+  }
+}
+
+.socialShare {
+ background-color: darkorchid;
+    padding: 2em 0;
+    margin: 3em 0;
+    color: black;
+    height: 100px;
+    font-size: 1.5em;
+     -webkit-transform: skewY(4deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
+  -o-transform: skewY(-2deg);
+  transform: skewY(-2deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: initial;
+
+   
+    .shareText {
+      background: #00e6fe;
+      margin: 0 2em;
+      padding: 1em;
+         -webkit-transform: skewY(4deg);
+      -moz-transform: skewY(-2deg);
+      -ms-transform: skewY(-2deg);
+      -o-transform: skewY(-2deg);
+      transform: skewY(-2deg);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: initial;
+    }
+
+  .fa-stack-1x {
+        color: black;
+  }
+  
+    
+}
+
+.hashtag {
+    font-family: $hashtag;
+    p {
+        font-size: 2em;
+        letter-spacing: 0.5em;
+    }
+}
+
+
+.content-page {
+    max-width: 90%;
+    margin: 2em auto;
+    font-size: 0.8em;
+    text-transform: none;
+}
+
+.row.twelve.columns.bannerImage {
+    margin-bottom: 2em;
+}
+
+
+ @media screen and (max-width: 850px){
+    .hashtag p {
+         font-size: 1em;
+    }
+
+    .fycBlurb {
+        font-size: 1em;
+    }
+           
+}
+
+@media screen and (max-width: 400px){
+    .hashtag p {
+         font-size: 0.5em;
+    }
+           
+}
+
+button {
+    border-color: mediumblue;
+    color: #333;
+    outline: 0;
+    background: #A10EEC;
+    border-radius: 0px;
+    a {
+      color: white;
+      letter-spacing: 0.5em;
+    }
+    &:hover {
+      background-color: transparent;
+      border-color: #A10EEC;
+      a{
+        color: black;
+      }
+    }
+
+}
+
+@media screen and (max-width: 700px){
+    .footerLink a {
+        font-size: 0.8em;
+        padding: .3em;
+    }
+}
+
+@media screen and (max-width: 550px){
+     .fycBlurb, .about {
+        font-size: 0.7em;
+    }
+
+    .footerLinks p {
+        font-size: 0.9em;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .socialShare{
+        font-size: 1em;
+    }
+}
+
+.twitterHashtags {
+  padding: 2em;
+  margin-bottom: 3em;
+  background-image: url(../img/feedBG.jpg);
+
+}
+
+.crt-feed-container .crt-feed-scroll {
+  background-color: blue;
+}
+
+.crt-feed-container .crt-feed-more a, .crt-post .crt-post-read-more .crt-post-read-more-button {
+    border: 2px solid #00e6fe;
+   background: purple !important;
+    color: #fff !important;
+    font-weight: bold;
+}

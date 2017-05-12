@@ -1,0 +1,81 @@
+@import 'normalize.scss';
+@import 'framework.scss';
+@import 'fonts.scss';
+@import 'colors.scss';
+@import 'pages.scss';
+@import 'nav.scss';
+@import 'gallery.scss';
+@import 'posts.scss';
+@import 'footer.scss';
+@import 'video.scss';
+
+
+body{
+	
+	background-color:  $background;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: .2rem;
+
+}
+
+h1, h2 {
+	font-famliy: $specialHeader;
+}
+
+header{
+	
+	margin-bottom: 1em;
+}
+
+img.homeBanner {
+	max-width: 95%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	&:hover{
+		color: $main;
+	}
+}
+
+li {
+	list-style: none;
+	display: inline;
+}
+
+h2 {
+	margin: 0;
+}
+
+
+
+/*** image wrap inside posts ***/
+
+img.alignright { float: right; margin: 0 0 1em 1em; max-width: 100%; height: auto;}
+img.alignleft { float: left; margin: 0 1em 1em 0;  max-width: 100%; height: auto;}
+img.aligncenter { display: block; margin-left: auto; margin-right: auto;  max-width: 100%; height: auto;}
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+
+
+img.alignright { float: right; margin: 0 0 1em 1em; max-width: 100%; height: auto;}
+img.alignleft { float: left; margin: 0 1em 1em 0;  max-width: 100%; height: auto;}
+img.aligncenter { display: block; margin-left: auto; margin-right: auto;  max-width: 100%; height: auto;}
+img.alignnone{max-width: 100%; height: auto;}
+
+.bio-page .textwidget {
+    margin: 1em 0 !important;
+    float: left;
+}
+
+
+img.logos {
+    max-width: 20%;
+}
+
+h3 {
+	font-size: 2em;
+}

@@ -1,0 +1,48 @@
+.row.twelve.columns.footerLink, .row.twelve.columns.contactBox {
+    background-color: #FFF001;
+    font-family: Raleway,HelveticaNeue,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    color: black;
+   
+    ul {
+	    text-align: center;
+	    margin: 1em;
+	    margin-top: 2em;
+	}
+	
+	.topItUp {
+		float: right;
+		margin-bottom: 2em;
+	}
+    a {
+		color: black;
+		font-size: 1em;
+	    padding: 0.5em;
+	    text-transform: uppercase;
+		&:hover {
+			color: #FF1493;
+		}
+	}
+	a.back-to-top {
+	    background: white;
+	    padding: 1em;
+	    color: black;
+	    font-family: $bodyFont;
+	    border: 2px solid #00E6FE;
+	    background: purple;
+    	color: white;
+	}
+
+	h4{
+		padding-top: 1em;
+	}
+}
+
+p.copyright {
+    font-size: .6em;
+    text-align: left;
+    padding: 0 1em;
+    margin-top: 1em;
+}

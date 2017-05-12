@@ -1,0 +1,21 @@
+/*** gallery portfolio single page ***/
+
+.content-portfolio-single, .portMainContainer {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+     h2{
+        font-family: $specialHeader;
+        background-color: $main;
+        background-image: url(../img/grain.png);
+        padding: 1em;
+    }
+}
+
+dl.gallery-item {
+    max-width: 100%;
+    float: left;
+    margin: 0px !important;
+    margin-top: -0.5em !important;
+}
+
